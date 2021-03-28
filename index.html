@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Solagne</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:wght@300;400&family=Ravi+Prakash&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div id="pop_up" class="close">
+
+        <div style="background-color:white;"><button class="pop-close-btn" onclick="pop()">
+                X
+            </button>
+
+
+            <div class="pop-description">
+                Skontaktuj się z nami!
+
+            </div>
+            <img src="img/logo_black_colored.jpg" alt="logo" class="logo-form">
+            <form action="wyslij.php" method="post" class="form-pop">
+
+                <input type="text" name="email" placeholder="Twój email" id="mail" /><br>
+
+
+                <textarea name="wiadomosc" cols="40" rows="8" placeholder="Wiadomość" id="mess"></textarea>
+                <br>
+                <input type="submit" value="Wyślij" id="btn-pop" />
+
+            </form>
+        </div>
+    </div>
+    <div id="dimmer" class="close"></div>
+
+    <main id="page">
+        <!--   banner & what is this-->
+        <header>
+            <!--
+            <img src="img/tlo.jpg" />
+            <div id="tekst">
+                <img src="img/GO4%20SYSTEM.png" id="napis">
+                <div id="podNapis">GWARANCJA ODCHUDZANIA</div>
+
+            </div>
+            <img src="img/logo.png" id="logo" />
+-->
+            <picture>
+                <source media="(orientation: landscape)" srcset="img/bannery/tlo-pc4.jpg" style="width:100%;">
+                <source media="(min-width:1001px)" srcset="img/bannery/tlo-pc4.jpg" style="width:100%;">
+                <source media="(max-width:1000px)" srcset="img/bannery/tlo-mobilne-napis.jpg" style="width:100%;">
+                <img src="img/bannery/tlo-pc4.jpg" alt="GO4SYSTEM" style="width:100%;">
+            </picture>
+            <article>
+                <div class="triangle">
+                    <p>Czym jest GO<h20 style="font-size:1.2em;">4</h20>SYSTEM ?</p>
+
+                    GO4SYSTEM - Gwarancja Odchudzania - to przełomowa, najskuteczniejsza i najszybsza kuracja bezpiecznego odchudzania.<br>Pozbędziesz się zewnętrznej tkanki tłuszczowej na zawsze.
+                    To, że schudniesz jest pewne pytanie tylko jak bardzo? 10kg? czy 15kg? I to wszystko w 6 do 10 tygodni.
+                    <img id="flower" src="img/kwiatek.png" />
+                </div>
+
+
+
+            </article>
+            <img id="flower2" src="img/kwiatek.png" />
+            <img id="left_palm2" src="img/left_palm.png" />
+            <img id="right_palm2" src="img/left_palm.png" />
+        </header>
+        <div class="lower-side">
+
+            <div class="center-vline"></div>
+            <div class="center-hline"></div>
+            <div class="left-border"></div>
+            <div class="right-border"></div>
+            <div class="circle" id=first-circle>1</div>
+            <div class="circle" id=second-circle>2</div>
+            <div class="circle" id=third-circle>3</div>
+
+        </div>
+
+        <!--        3 steeps-->
+
+        <section id="steps">
+
+            <article>
+                <img id="right_palm" src="img/left_palm.png" />
+
+                <p>KONSULTACJA</p>
+                Na tym etapie przeprowadzamy dogłębną analizę ciała.<br>Wykonujemy badania pomiarowe oraz jeśli zaistnieje taka potrzeba zlecamy badania krwi.<br>Analiza odbywa się na trzech płaszczyznach: kosmetologicznej, dietetycznej oraz motywacyjnej.<br>W oparciu o zebrane dane przygotowujemy idealny i skuteczny program odchudzający dobrany do potrzeb pacjenta.
+            </article>
+
+            <article>
+                <img id="left_palm" src="img/left_palm.png" />
+                <p>ZABIEGI</p>
+                Zabiegi odbywają się intensywnie ale zdrowo.<br>Nie przesilamy nadmiernie organizmu.<br>Osiągamy efekty w sposób progresywny oraz utrzymujący się w czasie.<br>W oparciu o nasz system nie musisz obawiać się efektu "JOJO".<br>
+                Po każdym zabiegu następuje redukcja komórek tłuszczowych odprowadzanych z organizmu przez własny system limfatyczny.
+            </article>
+
+            <article>
+                <p>EFEKTY</p>
+                Jakich efektów należy się spodziewać?
+                Przede wszystkim widoczna gołym okiem poprawa kondycji skóry.<br>Jest napięta i wygładzona, poprawia się koloryt.<br>Tym samym zmniejsza się obwód ciała oraz występuje trwała utrata wagi poprzez niwelację podskórnej tkanki tłuszczowej.<br>Najważniejsze jednak w całym procesie jest zdrowy sposób jego przeprowadzenia oraz gwarantowany efekt już po 3 tygodniach od rozpoczęcia kuracji.
+            </article>
+        </section>
+        <section id="film">
+
+            <iframe frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed/0FtXAWngggc"> </iframe>
+
+        </section>
+        <!--   transformations-->
+        <section id="pictures">
+            <h1>METAMORFOZY</h1>
+            <div id="back">
+                <div class="pair">
+                    <div id="photo1"><img src="img/transformations/ratio/photo_2_edited2.jpg"></div>
+                    <div id="photo2"><img src="img/transformations/ratio/photo_1_edited2.jpg"></div>
+                </div>
+
+                <div class="pair">
+                    <div id="photo3"><img src="img/transformations/ratio/Aleksandra_Czopko_back_before.jpg"></div>
+                    <div id="photo4"><img src="img/transformations/ratio/Aleksandra_Czopko_back_after.jpg"></div>
+                </div>
+
+                <div class="pair">
+                    <div id="photo5"><img src="img/transformations/ratio/photo_6_edited2.jpg"></div>
+                    <div id="photo6"><img src="img/transformations/ratio/photo_5_edited2.jpg"></div>
+                </div>
+
+                <div class="pair">
+                    <div id="photo7"><img src="img/transformations/ratio/33.jpg"></div>
+                    <div id="photo8"><img src="img/transformations/ratio/333.jpg"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--   methods-->
+        <h5>ODCHUDZANIE<br>TO NASZE POWOŁANIE </h5>
+        <section id="methods">
+            <article>
+                <p>Wykorzystywane zabiegi</p>
+                <span id="methods-span">
+                    <article>
+                        Najnowsze technologie w oparciu o certyfikowane medycznie urządzenia europejskich producentów.<br>
+                        W zależności od potrzeb wprowadzamy nowatorski system Slim Body Effect ale także systematycznie realizujemy autorskie masaże modelujące wspomagające likwidację tkanki tłuszczowej i jej bezpieczny drenaż.
+                    </article>
+
+                    <img src="img/zdjecie3.png" id="transition">
+                </span>
+            </article>
+        </section>
+
+
+
+        <!--   finish-->
+        <section id="finish">
+            <h4>
+                ODMIEŃ SWOJE ŻYCIE Z <p style="color:transparent; font-size: 1.1em;">GO<h10 style="font-size:1.2em;">4</h10>SYSTEM</p>
+            </h4>
+
+            <span>
+                <a href="tel:798065065"><button>
+                        Zadzwoń
+                    </button>
+                </a>
+
+                <button onclick="pop()" id="btn-page">
+                    Wyślij zapytanie
+                </button>
+            </span>
+        </section>
+
+        <section class="comments">
+            <article class="com1">
+                "Z wielkim sceptycyzmem podeszłam do tej metody odchudzania. Sama nie wiedziałam co mam o tym myśleć. Jednak już po pierwszej wizycie zrozumiałam, że tak profesjonalne podejście do tematu musi przynieść efekty.
+                Polecam, mam za sobą zgubione naście kilogramów i całą garderobę do wymiany..." <p>~Beata K.</p>
+            </article>
+            <article class="com2">
+                "O systemie dowiedziałam się od przyjaciółki, która miała niesamowity efekt. Tymczasem moje efekty zaskoczyły nie tylko mnie ale także całe moje otoczenie. Jestem przeszczęśliwa. Warto było. Dziś chodzę w dżinsach z okresu gdy byłam jeszcze panną, genialne uczucie. Szkoda, że wcześniej nie skorzystałam z tego programu." <p>~Joanna B.</p>
+            </article>
+
+        </section>
+
+
+        <!--   footer-->
+        <footer>
+            <article>
+                <p><i class="icon-location"></i>Lokalizacja</p>ul. Literacka 131, Poznań
+                <br>ul. Złotkowska 41, Poznań
+            </article>
+            <article>
+                <p><i class="icon-phone"></i>Telefon</p>
+                (+48)798-341-341
+                <br>
+                (+48)798-065-065
+            </article>
+            <article>
+                <p><i class="icon-mail"></i>E-mail</p>literacka@solagnespa.pl
+                <br>zlotkowska@solangespa.pl
+            </article>
+        </footer>
+    </main>
+    <!--    </div>-->
+
+    <script>
+        function pop() {
+
+            if (document.getElementById("pop_up").classList.contains("close")) {
+                document.getElementById("pop_up").classList.remove("close");
+                document.getElementById("pop_up").classList.add("open");
+                document.getElementById("dimmer").classList.remove("close");
+                document.getElementById("dimmer").classList.add("open-dimmer");
+            } else {
+                document.getElementById("pop_up").classList.remove("open");
+                document.getElementById("pop_up").classList.add("close");
+                document.getElementById("dimmer").classList.add("close");
+                document.getElementById("dimmer").classList.remove("open-dimmer");
+            }
+        }
+        window.onload = function() {
+            if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+                // false for mobile device
+                document.querySelector('#finish a button:first-of-type').style.display = "none";
+                var btns = document.querySelector('#btn-page');
+                btns.style.height = "6vw";
+                btns.style.width = "21vw";
+                btns.style.fontSize = "2vw";
+                btns.style.marginTop = "5vw";
+            }
+        };
+
+        function ScrollAppear() {
+            var object = document.querySelector('#steps article');
+            var object2 = document.querySelector('#steps article:nth-child(2)');
+            var object3 = document.querySelector('#steps article:nth-child(3)');
+            var objectH1 = document.querySelector('#pictures h1');
+            var objectH5 = document.querySelector('h5');
+            var objectM = document.querySelector('#methods');
+            var objectH4 = document.querySelector('h4');
+            var objectH4P = document.querySelector('h4 p');
+            var objectC = document.querySelector('.com1');
+            var objectC2 = document.querySelector('.com2');
+
+            var ObjectDistance1 = object.getBoundingClientRect().top;
+            var ObjectDistance2 = objectH1.getBoundingClientRect().top;
+            var ObjectDistance3 = objectH5.getBoundingClientRect().top;
+            var ObjectDistance4 = objectM.getBoundingClientRect().top;
+            var ObjectDistance5 = objectH4.getBoundingClientRect().top;
+            var ObjectDistance6 = objectH4P.getBoundingClientRect().top;
+            var ObjectDistance7 = objectC.getBoundingClientRect().top;
+            var ObjectDistance8 = objectC2.getBoundingClientRect().top;
+            var position = window.innerHeight / 1.3;
+
+            if (ObjectDistance1 < position) {
+                object.style.transition = 'all 1s';
+                object2.style.transition = 'all 1s';
+                object3.style.transition = 'all 1s';
+                object.style.color = "black";
+                object2.style.color = "black";
+                object3.style.color = "black";
+            }
+            if (ObjectDistance2 < position) {
+                objectH1.style.transition = 'all 1.5s';
+                objectH1.style.color = '#967131';
+            }
+            if (ObjectDistance3 < position) {
+                objectH5.style.transition = 'all 1.5s';
+                objectH5.style.color = '#967131';
+            }
+            if (ObjectDistance4 < position) {
+                objectM.style.transition = 'all 1s';
+                objectM.style.color = 'white';
+            }
+            if (ObjectDistance5 < position) {
+                objectH4.style.transition = 'all 1.5s';
+                objectH4.style.color = '#56c4a1';
+            }
+            if (ObjectDistance6 < position) {
+                objectH4P.style.transition = 'all 1.5s';
+                objectH4P.style.color = '#56b4a1';
+            }
+            if (ObjectDistance7 < position) {
+                objectC.style.transition = 'all 1s';
+                objectC.style.color = 'black';
+            }
+            if (ObjectDistance8 < position) {
+                objectC2.style.transition = 'all 1s';
+                objectC2.style.color = 'black';
+            }
+
+        }
+        window.addEventListener('scroll', ScrollAppear);
+
+    </script>
+</body>
+
+</html>
