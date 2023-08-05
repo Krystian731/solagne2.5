@@ -15,7 +15,7 @@ Project is created with:
 * CSS 3
 * JS ES6
 * PHP 8.0
-* 
+  
 ## Setup
 To run this project:
 1. install it locally
